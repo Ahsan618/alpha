@@ -1,16 +1,16 @@
 package task1;
 
 public class main {
-	public static Object Lock1 = new Object();
-	 public static Object Lock2 = new Object();
-	 public static Object Lock3 = new Object();
+	public static Object Lock10 = new Object();
+	 public static Object Lock20 = new Object();
+	 public static Object Lock30 = new Object();
 
 	public static void main(String args[]) {
-		 ThreadDemo1 T1 = new ThreadDemo1();
+		 ThreadDemo1 T1 = new ThreadDemo10();
 		 
-		 ThreadDemo2 T2 = new ThreadDemo2();
+		 ThreadDemo2 T2 = new ThreadDemo20();
 		 
-		 ThreadDemo3 T3 = new ThreadDemo3();
+		 ThreadDemo3 T3 = new ThreadDemo30();
 		 
 		 T1.start();
 		 T2.start();
